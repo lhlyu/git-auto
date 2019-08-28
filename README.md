@@ -8,7 +8,7 @@
 Dockerfile       // docker构建必须
 auto.sh          // 脚本，负责git的提交逻辑
 id_rsa           // ssh私钥  自行生成  !!!!!!!!!!
-id_rsa.pub       // ssh公钥  自行生成  !!!!!!!!!!
+id_rsa.pub       // ssh公钥  自行生成  !!!!!!!!!!  将这个配置到个人公钥
 ```
 
 #### 步骤
@@ -68,7 +68,7 @@ docker run -itd job /home/auto
 4. 这样就OK了，可以看看有没有启动成功
 
 ```
-docker ps | greo job
+docker ps | grep job
 ```
 
 
