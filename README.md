@@ -18,7 +18,7 @@ id_rsa.pub       // ssh公钥  自行生成  !!!!!!!!!!  将这个配置到个�
 - Dockerfile
 ```
 FROM lhlyu/git:v2
-MAINTAINER “lhlyu”
+MAINTAINER "lhlyu"
 ADD id_rsa /root/.ssh
 ADD id_rsa.pub /root/.ssh
 ADD auto.sh /home
